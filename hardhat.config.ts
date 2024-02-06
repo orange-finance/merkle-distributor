@@ -4,6 +4,8 @@
 require('dotenv').config()
 import '@nomiclabs/hardhat-ethers'
 import '@nomiclabs/hardhat-waffle'
+import './tasks/deploy-test-erc20'
+import './tasks/deploy-merkle-distributor'
 
 module.exports = {
   solidity: {
@@ -28,7 +30,7 @@ module.exports = {
       },
     },
     tenderly: {
-      chainId: 1,
+      chainId: 42161,
       url: `https://rpc.tenderly.co/fork/${process.env.TENDERLY_FORK_ID}`,
       accounts: process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
     },
