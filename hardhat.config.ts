@@ -4,6 +4,7 @@
 require('dotenv').config()
 import '@nomiclabs/hardhat-ethers'
 import '@nomiclabs/hardhat-waffle'
+import '@nomicfoundation/hardhat-verify'
 import './tasks/deploy-test-erc20'
 import './tasks/deploy-merkle-distributor'
 
@@ -34,9 +35,19 @@ module.exports = {
       url: `https://rpc.tenderly.co/fork/${process.env.TENDERLY_FORK_ID}`,
       accounts: process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
     },
+    arb: {
+      chainId: 42161,
+      url: `https://arb-mainnet.g.alchemy.com/v2/${process.env.ALCHEMY_KEY}`,
+      accounts: process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
+    },
     mainnet: {
       url: `https://mainnet.infura.io/v3/${process.env.INFURA_KEY}`, // or any other JSON-RPC provider
       accounts: process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
+    },
+  },
+  etherscan: {
+    apiKey: {
+      arbitrumOne: process.env.ETHERSCAN_API_KEY,
     },
   },
 }
