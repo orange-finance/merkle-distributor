@@ -20,6 +20,7 @@
   "scripts": {
     "precompile": "rimraf ./build/",
     "compile": "npx hardhat compile",
+    "spaceship:generate-distribution": "ts-node projects/the-spaceship/create-distribution.ts",
     "generate-merkle-root": "ts-node scripts/generate-merkle-root.ts",
     "generate-merkle-root:example": "ts-node scripts/generate-merkle-root.ts --input scripts/example.json",
     "deploy:test-erc20": "npx hardhat deploy-test-erc20",
@@ -50,7 +51,8 @@
     "rimraf": "^3.0.0",
     "solc": "0.6.11",
     "ts-node": "^8.5.4",
-    "typescript": "^3.7.3"
+    "typescript": "^3.7.3",
+    "zod": "^3.22.4"
   },
   "engines": {
     "node": ">=16"

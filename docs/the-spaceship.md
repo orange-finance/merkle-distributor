@@ -1,6 +1,14 @@
 # The Spaceship Airdrop
 
-## 1. Generate the merkle tree
+## 1. Prepare the distribution file
+
+```bash
+yarn spaceship:generate-distribution
+```
+
+this will print the distribution information to the console. copy the output to a file for future reference.
+
+## 2. Generate the merkle tree
 
 ```bash
 yarn generate-merkle-root -i projects/spaceship/prod/distribution.json
@@ -11,7 +19,7 @@ this will show the merkle tree information to the console. copy the `merkleRoot`
 it's recommended to save the merkle tree information to a file for future reference.
 file: `projects/spaceship/prod/merkle-tree.json`
 
-## 2. Deploy the contract
+## 3. Deploy the contract
 
 change the `merkleRoot` value to the one generated in the previous step.
 
