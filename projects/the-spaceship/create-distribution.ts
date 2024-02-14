@@ -48,22 +48,26 @@ async function main() {
   const total: bigint = result.rows.reduce((acc: bigint, row: Row) => (acc += BigInt(row.points)), BigInt(0))
 
   const claims = result.rows.map((row: Row) => {
+    let bnEarnings = BigInt(0)
+
     const claim = {
       user: row.user,
-      earnings: BigInt(0),
+      earnings: '',
       reason: '',
     }
 
     if (row.rank <= m1RankLimit) {
-      claim.earnings += BigInt(mileStone1) / BigInt(m1RankLimit)
+      bnEarnings += BigInt(mileStone1) / BigInt(m1RankLimit)
     }
 
-    claim.earnings += (BigInt(mileStone2) * BigInt(row.points)) / total
+    bnEarnings += (BigInt(mileStone2) * BigInt(row.points)) / total
+
+    claim.earnings = bnEarnings.toString()
 
     return claim
   })
 
-  console.log({ claims })
+  console.log(JSON.stringify(claims))
 }
 
 main().catch((err) => {
