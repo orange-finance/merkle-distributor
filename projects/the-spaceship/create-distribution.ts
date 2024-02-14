@@ -1,4 +1,3 @@
-import { program } from 'commander'
 import fetch from 'cross-fetch'
 import { z } from 'zod'
 import { mockDuneFetch } from './mock'
@@ -23,10 +22,10 @@ const duneSchema = z.object({
   }),
 })
 
-const m1Tokens = '25000000000000000000000' // 25,000 ARB
+const mileStone1 = '25000000000000000000000' // 25,000 ARB
 const m1RankLimit = 50
 
-const m2Tokens = '12500000000000000000000' // 12,500 ARB
+const mileStone2 = '12500000000000000000000' // 12,500 ARB
 
 async function duneFetch(url: string, meta: Record<string, string>): Promise<DuneResponse> {
   return fetch(url, {
@@ -37,12 +36,12 @@ async function duneFetch(url: string, meta: Record<string, string>): Promise<Dun
 }
 
 async function main() {
-  //   const url = `https://api.dune.com/api/v1/query/3409435/results?api_key=${process.env.DUNE_API_KEY}`
   const meta = {
     'x-dune-api-key': process.env.DUNE_API_KEY ?? '',
   }
   const url = `https://api.dune.com/api/v1/query/3409435/results`
 
+  // TODO: uncomment this line to use real data
   // const { result } = await duneFetch(url, meta)
   const { result } = await mockDuneFetch(url, meta)
 
@@ -56,10 +55,10 @@ async function main() {
     }
 
     if (row.rank <= m1RankLimit) {
-      claim.earnings += BigInt(m1Tokens) / BigInt(m1RankLimit)
+      claim.earnings += BigInt(mileStone1) / BigInt(m1RankLimit)
     }
 
-    claim.earnings += (BigInt(m2Tokens) * BigInt(row.points)) / total
+    claim.earnings += (BigInt(mileStone2) * BigInt(row.points)) / total
 
     return claim
   })

@@ -1,4 +1,4 @@
-import { BigNumber, ethers } from 'ethers'
+import { BigNumber } from 'ethers'
 import { DuneResponse } from './create-distribution'
 import crypto from 'crypto'
 import { randBigNumber } from './rand'
@@ -33,15 +33,3 @@ export async function mockDuneFetch(
     },
   }
 }
-
-function randBig(bytes: number): bigint {
-  const seed = Math.floor(Math.random() * bytes)
-
-  const hex = crypto.randomBytes(seed).toString('hex')
-
-  return hex ? BigInt('0x' + hex) : BigInt(0)
-}
-
-mockDuneFetch('https://api.dune.com/api/v1/query/3409435/results', {}).then((res) => {
-  console.log(res.result.rows)
-})
