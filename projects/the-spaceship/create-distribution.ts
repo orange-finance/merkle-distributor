@@ -1,6 +1,6 @@
 import fetch from 'cross-fetch'
 import { z } from 'zod'
-import { mockDuneFetch } from './mock'
+import { mockDuneFetch } from './test/dune'
 
 export type Row = z.infer<typeof duneSchema>['result']['rows'][number]
 

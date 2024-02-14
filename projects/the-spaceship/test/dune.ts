@@ -1,5 +1,5 @@
 import { BigNumber } from 'ethers'
-import { DuneResponse } from './create-distribution'
+import { DuneResponse } from '../create-distribution'
 import crypto from 'crypto'
 import { randBigNumber } from './rand'
 
@@ -10,14 +10,10 @@ export async function mockDuneFetch(
   meta: Record<string, string>,
   count: number = 100
 ): Promise<DuneResponse> {
-  // const randomPoints = Array.from({ length: count }, (_, i) => randBig(20)).sort((a, b) => Number(b - a))
   const randomPoints = Array.from({ length: count }, (_, i) => randBigNumber(EXPECTED_MAX_POINT, 18)).sort((a, b) =>
     b.sub(a).gt(0) ? 1 : -1
   )
-  // const total = randomPoints.reduce((acc, curr) => acc + curr, BigInt(0))
   const total = randomPoints.reduce((acc, curr) => acc.add(curr), BigNumber.from(0))
-
-  console.log({ total })
 
   return {
     result: {
