@@ -1,0 +1,611 @@
+yarn run v1.22.21
+$ /Users/ryamaguchi/ghq/github.com/orange-finance/merkle-distributor/node_modules/.bin/ts-node projects/the-spaceship/mock.ts
+{
+  total: BigNumber {
+    _hex: '0x0356ce70abfdd808eb93800000',
+    _isBigNumber: true
+  }
+}
+[
+  {
+    points: '4994154751000000000000000000',
+    rank: 1,
+    user: '0xa6172a6f41570865fd1c7ed62f14e08ab953f53a',
+    wethLatestShareRatio: 4.994154751e+27
+  },
+  {
+    points: '4928502528000000000000000000',
+    rank: 2,
+    user: '0x2cbe53e0fe5e8ba321a7d1ec599f130356cfc887',
+    wethLatestShareRatio: 4.928502528e+27
+  },
+  {
+    points: '4849334820000000000000000000',
+    rank: 3,
+    user: '0x22f94d503a168bf7be1e619237239b1cc5c648aa',
+    wethLatestShareRatio: 4.84933482e+27
+  },
+  {
+    points: '4830759637000000000000000000',
+    rank: 4,
+    user: '0x8ff58023faa14b2b99b582fc1b2d1a40fee2e960',
+    wethLatestShareRatio: 4.830759637e+27
+  },
+  {
+    points: '4713536615000000000000000000',
+    rank: 5,
+    user: '0x3c5ae8ceb876afb6d2e830113fb994dad455f683',
+    wethLatestShareRatio: 4.713536615e+27
+  },
+  {
+    points: '4696088784000000000000000000',
+    rank: 6,
+    user: '0xf089bce8ba3f10ce2b8e041a9a61dcdeaaff8299',
+    wethLatestShareRatio: 4.696088784e+27
+  },
+  {
+    points: '4694676357000000000000000000',
+    rank: 7,
+    user: '0xa21e3eaef581750ae375bfd78389153f17d40ff0',
+    wethLatestShareRatio: 4.694676357e+27
+  },
+  {
+    points: '4693855649000000000000000000',
+    rank: 8,
+    user: '0x40f23c2af6ca9fcd56e39645a8a97d77ac47a091',
+    wethLatestShareRatio: 4.693855649e+27
+  },
+  {
+    points: '4679981880000000000000000000',
+    rank: 9,
+    user: '0x19d31eeff7ac83e8ac64c3765b38b1f00f997471',
+    wethLatestShareRatio: 4.67998188e+27
+  },
+  {
+    points: '4679040690000000000000000000',
+    rank: 10,
+    user: '0xae09094bea001fdf906b3d53d08445201e197b30',
+    wethLatestShareRatio: 4.67904069e+27
+  },
+  {
+    points: '4666093802000000000000000000',
+    rank: 11,
+    user: '0x25cc98569cfa99caf3af61a8e58ce4b34ab09156',
+    wethLatestShareRatio: 4.666093802e+27
+  },
+  {
+    points: '4641299195000000000000000000',
+    rank: 12,
+    user: '0x6028d831a03e694a943d682c2286047973fc8370',
+    wethLatestShareRatio: 4.641299195e+27
+  },
+  {
+    points: '4538955690000000000000000000',
+    rank: 13,
+    user: '0x199f193ef3fd5fe9ed17f9a7c1fae169d3ac171a',
+    wethLatestShareRatio: 4.53895569e+27
+  },
+  {
+    points: '4508220506000000000000000000',
+    rank: 14,
+    user: '0xc39f8c42c9f7d65fae4aaafa83dc25fb5d7fd5d3',
+    wethLatestShareRatio: 4.508220506e+27
+  },
+  {
+    points: '4449359306000000000000000000',
+    rank: 15,
+    user: '0xd12f30951d424e938e69a0d4b9ea5212e344ef58',
+    wethLatestShareRatio: 4.449359306e+27
+  },
+  {
+    points: '4447387885000000000000000000',
+    rank: 16,
+    user: '0xbff99dc6f703ed6bf1f1c564d9219e2bdf8027d4',
+    wethLatestShareRatio: 4.447387885e+27
+  },
+  {
+    points: '4433103374000000000000000000',
+    rank: 17,
+    user: '0xc81923cdaf354d21d49bc814c7fd824edd9d450b',
+    wethLatestShareRatio: 4.433103374e+27
+  },
+  {
+    points: '4407355965000000000000000000',
+    rank: 18,
+    user: '0x2ac186bf811ed137350b942f73db7630f623a697',
+    wethLatestShareRatio: 4.407355965e+27
+  },
+  {
+    points: '4400802033000000000000000000',
+    rank: 19,
+    user: '0xdd8480877416ae8d13ad6b08d77d37b189146770',
+    wethLatestShareRatio: 4.400802033e+27
+  },
+  {
+    points: '4369969297000000000000000000',
+    rank: 20,
+    user: '0xca2a830f94325b1686062e6642c82eef9e3ed0a6',
+    wethLatestShareRatio: 4.369969297e+27
+  },
+  {
+    points: '4312907313000000000000000000',
+    rank: 21,
+    user: '0x235db8bf07259b9db8fba78a2bc1881509322d8f',
+    wethLatestShareRatio: 4.312907313e+27
+  },
+  {
+    points: '4252577993000000000000000000',
+    rank: 22,
+    user: '0xe8e3664752ef52c71bf58ad43dc8f99b4eb7a35b',
+    wethLatestShareRatio: 4.252577993e+27
+  },
+  {
+    points: '4235577181000000000000000000',
+    rank: 23,
+    user: '0x0fe87332939e5a985a9a547993d1f684a1e3fe99',
+    wethLatestShareRatio: 4.235577181e+27
+  },
+  {
+    points: '4202529610000000000000000000',
+    rank: 24,
+    user: '0xb3074e8d9105ff2417992474706225237762edf0',
+    wethLatestShareRatio: 4.20252961e+27
+  },
+  {
+    points: '4184920886000000000000000000',
+    rank: 25,
+    user: '0xeca488d2a8b795f23bd863c0bd7d71ee88ba9bd6',
+    wethLatestShareRatio: 4.184920886e+27
+  },
+  {
+    points: '4181619668000000000000000000',
+    rank: 26,
+    user: '0xab402d5aaae92e0b5a333fb16fe814c1ed11c59e',
+    wethLatestShareRatio: 4.181619668e+27
+  },
+  {
+    points: '4163853343000000000000000000',
+    rank: 27,
+    user: '0x467bed727e7f7c19d465f9607e76da75357f0050',
+    wethLatestShareRatio: 4.163853343e+27
+  },
+  {
+    points: '4068225617000000000000000000',
+    rank: 28,
+    user: '0xa38612a502d2b235fbba166297794fbbb60f3bf4',
+    wethLatestShareRatio: 4.068225617e+27
+  },
+  {
+    points: '4055496663000000000000000000',
+    rank: 29,
+    user: '0x438ce85d5a49178b082141ed1192122bbfca0346',
+    wethLatestShareRatio: 4.055496663e+27
+  },
+  {
+    points: '4023907637000000000000000000',
+    rank: 30,
+    user: '0x9cc895127101aaa8a4081d05163b9aaeeffe3071',
+    wethLatestShareRatio: 4.023907637e+27
+  },
+  {
+    points: '3974215835000000000000000000',
+    rank: 31,
+    user: '0xcb5cf8ee3ab9db8cea9422226ac4221f95b9aa11',
+    wethLatestShareRatio: 3.974215835e+27
+  },
+  {
+    points: '3950360329000000000000000000',
+    rank: 32,
+    user: '0x488fa922152c637aead87c363aed23a94bfb1ad5',
+    wethLatestShareRatio: 3.950360329e+27
+  },
+  {
+    points: '3894861802000000000000000000',
+    rank: 33,
+    user: '0x38378503ac76e768cf8c6eecb449e9a4df314b10',
+    wethLatestShareRatio: 3.894861802e+27
+  },
+  {
+    points: '3795887079000000000000000000',
+    rank: 34,
+    user: '0x7dfecb799f8a47f60a349d81817297d440b8514b',
+    wethLatestShareRatio: 3.795887079e+27
+  },
+  {
+    points: '3722838921000000000000000000',
+    rank: 35,
+    user: '0x453a55b0ec2a6fd5294420e04593bfbdc6cb166f',
+    wethLatestShareRatio: 3.722838921e+27
+  },
+  {
+    points: '3637400824000000000000000000',
+    rank: 36,
+    user: '0x004c40edf9735ff2ef5a6a155e6b8c4a65d9acc7',
+    wethLatestShareRatio: 3.637400824e+27
+  },
+  {
+    points: '3613673217000000000000000000',
+    rank: 37,
+    user: '0x76e8e013489fbc509c5611c7048adb0e19ad0a7f',
+    wethLatestShareRatio: 3.613673217e+27
+  },
+  {
+    points: '3599205789000000000000000000',
+    rank: 38,
+    user: '0xa0608d2d24616c981a2faa644bd0be72f860de59',
+    wethLatestShareRatio: 3.599205789e+27
+  },
+  {
+    points: '3578856897000000000000000000',
+    rank: 39,
+    user: '0xa9b23a73f5ae38dd7c8f30a57276ae91788fee63',
+    wethLatestShareRatio: 3.578856897e+27
+  },
+  {
+    points: '3380683631000000000000000000',
+    rank: 40,
+    user: '0x5759922bffe70ac1a3b7fb4633d14690904161c8',
+    wethLatestShareRatio: 3.380683631e+27
+  },
+  {
+    points: '3316054802000000000000000000',
+    rank: 41,
+    user: '0x06f123986b63c36d6b64c6b25ec4f0aaf3c08ecd',
+    wethLatestShareRatio: 3.316054802e+27
+  },
+  {
+    points: '3291434904000000000000000000',
+    rank: 42,
+    user: '0xeecf390797bf602ac61648fa1f0a493a605331d2',
+    wethLatestShareRatio: 3.291434904e+27
+  },
+  {
+    points: '3246899705000000000000000000',
+    rank: 43,
+    user: '0xe45f2eb3c3ca434e6cf177b4a632479de7d9bc92',
+    wethLatestShareRatio: 3.246899705e+27
+  },
+  {
+    points: '3219496980000000000000000000',
+    rank: 44,
+    user: '0x4129a2e0e21d716a07aeec519d7b0ce003e5fca1',
+    wethLatestShareRatio: 3.21949698e+27
+  },
+  {
+    points: '3219275284000000000000000000',
+    rank: 45,
+    user: '0xe63d461ef9818479d59dcdb8b6580ec43ff9be69',
+    wethLatestShareRatio: 3.219275284e+27
+  },
+  {
+    points: '3014440154000000000000000000',
+    rank: 46,
+    user: '0x0793b6deb8443c7e5dc133bdbd8dcaa00376501d',
+    wethLatestShareRatio: 3.014440154e+27
+  },
+  {
+    points: '3003261035000000000000000000',
+    rank: 47,
+    user: '0x0c7c4ea3eb3f4673dc1352c1fcf176f76ac73822',
+    wethLatestShareRatio: 3.003261035e+27
+  },
+  {
+    points: '2943967761000000000000000000',
+    rank: 48,
+    user: '0x645ffda661c3ff25ba29c73a54fa3d9436856b6b',
+    wethLatestShareRatio: 2.943967761e+27
+  },
+  {
+    points: '2728006457000000000000000000',
+    rank: 49,
+    user: '0xb401fb12a62501a50854c1e20c9a32d8ff448628',
+    wethLatestShareRatio: 2.728006457e+27
+  },
+  {
+    points: '2548719179000000000000000000',
+    rank: 50,
+    user: '0xf9e34897c5ec49243df8344b8ac64468ec5c96d5',
+    wethLatestShareRatio: 2.548719179e+27
+  },
+  {
+    points: '2530093137000000000000000000',
+    rank: 51,
+    user: '0x817b53809124fcb5e36ec725150deb1989afb898',
+    wethLatestShareRatio: 2.530093137e+27
+  },
+  {
+    points: '2527848029000000000000000000',
+    rank: 52,
+    user: '0x10446ac28b100d2e1ec39aa0a456182ea75bdcd1',
+    wethLatestShareRatio: 2.527848029e+27
+  },
+  {
+    points: '2421149302000000000000000000',
+    rank: 53,
+    user: '0x142ca4b40f7449ac82ed0f952352a6c30253ccfe',
+    wethLatestShareRatio: 2.421149302e+27
+  },
+  {
+    points: '2193825383000000000000000000',
+    rank: 54,
+    user: '0xa4fde68e4b53ce2a9271fc6e0c2c2f28f1629f5e',
+    wethLatestShareRatio: 2.193825383e+27
+  },
+  {
+    points: '2185961612000000000000000000',
+    rank: 55,
+    user: '0x060e85260dd354affcf4ca63a07d24cbac8cfbdf',
+    wethLatestShareRatio: 2.185961612e+27
+  },
+  {
+    points: '2068733302000000000000000000',
+    rank: 56,
+    user: '0x5fe255464c8849a0d977736ff50ec0d9c68f0b5a',
+    wethLatestShareRatio: 2.068733302e+27
+  },
+  {
+    points: '2052991766000000000000000000',
+    rank: 57,
+    user: '0xcb1cbcb673d830a8a19e6238fa419d8b61be2b38',
+    wethLatestShareRatio: 2.052991766e+27
+  },
+  {
+    points: '2044110524000000000000000000',
+    rank: 58,
+    user: '0x4b6550f98b7178822af0306578fb0d0b441b2370',
+    wethLatestShareRatio: 2.044110524e+27
+  },
+  {
+    points: '2026365302000000000000000000',
+    rank: 59,
+    user: '0xb1cc3fbf2d567cf86946317b753805322a69205c',
+    wethLatestShareRatio: 2.026365302e+27
+  },
+  {
+    points: '2021013799000000000000000000',
+    rank: 60,
+    user: '0x8e8d8743cce5c1edc7f567dba9a7f4d577c3edd4',
+    wethLatestShareRatio: 2.021013799e+27
+  },
+  {
+    points: '1982419306000000000000000000',
+    rank: 61,
+    user: '0xdcc1b2983a57afcc30cb4fe658c546c445440895',
+    wethLatestShareRatio: 1.982419306e+27
+  },
+  {
+    points: '1888886470000000000000000000',
+    rank: 62,
+    user: '0xf0c75889916f586648143c181693a8f9ab66bd11',
+    wethLatestShareRatio: 1.88888647e+27
+  },
+  {
+    points: '1868841194000000000000000000',
+    rank: 63,
+    user: '0x340217d32501570f5ee7d1c6effbfe3f29e2f8a7',
+    wethLatestShareRatio: 1.868841194e+27
+  },
+  {
+    points: '1847838020000000000000000000',
+    rank: 64,
+    user: '0xab1bdf142c8fdadb73aecea3a232f3fc02401f72',
+    wethLatestShareRatio: 1.84783802e+27
+  },
+  {
+    points: '1810045712000000000000000000',
+    rank: 65,
+    user: '0x80d4197edbb06ad7cd35f5688448c47f4cff7550',
+    wethLatestShareRatio: 1.810045712e+27
+  },
+  {
+    points: '1720404690000000000000000000',
+    rank: 66,
+    user: '0x54a3c8f104168c19ad7def88eecec5d25ae9b393',
+    wethLatestShareRatio: 1.72040469e+27
+  },
+  {
+    points: '1670318417000000000000000000',
+    rank: 67,
+    user: '0x2b38da8fcfeaf1661377a8123764bbec7c8298a4',
+    wethLatestShareRatio: 1.670318417e+27
+  },
+  {
+    points: '1584704936000000000000000000',
+    rank: 68,
+    user: '0x9d9add7693b864099264fc5e1b69d7cf10929fbb',
+    wethLatestShareRatio: 1.584704936e+27
+  },
+  {
+    points: '1453293097000000000000000000',
+    rank: 69,
+    user: '0x9ba5a82541906108a7edb9db7f2d1467b9e7ce29',
+    wethLatestShareRatio: 1.453293097e+27
+  },
+  {
+    points: '1408846540000000000000000000',
+    rank: 70,
+    user: '0xdbdf1b746ae8d9f1ff384d9647f7d3631beb42de',
+    wethLatestShareRatio: 1.40884654e+27
+  },
+  {
+    points: '1335006611000000000000000000',
+    rank: 71,
+    user: '0xd91481d0a4e3fa815efb9f3f5748e57db1e3394d',
+    wethLatestShareRatio: 1.335006611e+27
+  },
+  {
+    points: '1287755956000000000000000000',
+    rank: 72,
+    user: '0xa0e807d306ff690946f6223f791f0c007aaa6f7c',
+    wethLatestShareRatio: 1.287755956e+27
+  },
+  {
+    points: '1263706730000000000000000000',
+    rank: 73,
+    user: '0xdfd368fe263886686bf4c327f6d870bafe48c39c',
+    wethLatestShareRatio: 1.26370673e+27
+  },
+  {
+    points: '1162198645000000000000000000',
+    rank: 74,
+    user: '0xac3c6d7bd8c95d07163357a874a27682edd9555c',
+    wethLatestShareRatio: 1.162198645e+27
+  },
+  {
+    points: '1139562584000000000000000000',
+    rank: 75,
+    user: '0xe8c0ec9843e4d7cca9941611fc9b721cec4a2269',
+    wethLatestShareRatio: 1.139562584e+27
+  },
+  {
+    points: '1134613820000000000000000000',
+    rank: 76,
+    user: '0x36249ad9585491bbc1162d9ed01a940f978eb7ca',
+    wethLatestShareRatio: 1.13461382e+27
+  },
+  {
+    points: '1130647242000000000000000000',
+    rank: 77,
+    user: '0xedcd4e368221cc51d753b87ea455018b96515988',
+    wethLatestShareRatio: 1.130647242e+27
+  },
+  {
+    points: '1119116939000000000000000000',
+    rank: 78,
+    user: '0xea4d07ad052078fc886a38373a5e8db78e3e7c95',
+    wethLatestShareRatio: 1.119116939e+27
+  },
+  {
+    points: '1074309390000000000000000000',
+    rank: 79,
+    user: '0x044fa69ba7bca51e5b9e7b18a6681298d612fec1',
+    wethLatestShareRatio: 1.07430939e+27
+  },
+  {
+    points: '993973645000000000000000000',
+    rank: 80,
+    user: '0xef07906b4c8ce077946d0a1f0ab25a30f61e213e',
+    wethLatestShareRatio: 9.93973645e+26
+  },
+  {
+    points: '936524564000000000000000000',
+    rank: 81,
+    user: '0xacbd0a13263eea1041e46ba9f1e4cd87403ade75',
+    wethLatestShareRatio: 9.36524564e+26
+  },
+  {
+    points: '876326402000000000000000000',
+    rank: 82,
+    user: '0x9f05c1831101373c2fb5888c007363c793eeda22',
+    wethLatestShareRatio: 8.76326402e+26
+  },
+  {
+    points: '868119917000000000000000000',
+    rank: 83,
+    user: '0x45988456f96002e80fd0bd810467840cb419c4c2',
+    wethLatestShareRatio: 8.68119917e+26
+  },
+  {
+    points: '848351060000000000000000000',
+    rank: 84,
+    user: '0xb2e232779fc4bf5d995e098fe1ad31cbcea29723',
+    wethLatestShareRatio: 8.4835106e+26
+  },
+  {
+    points: '841586391000000000000000000',
+    rank: 85,
+    user: '0xfbcecc30846143c1ce3037a2d30a8624d5a201db',
+    wethLatestShareRatio: 8.41586391e+26
+  },
+  {
+    points: '811903684000000000000000000',
+    rank: 86,
+    user: '0x6f7cf40d0257e879491366d98a9ee3578a55fb5e',
+    wethLatestShareRatio: 8.11903684e+26
+  },
+  {
+    points: '746417830000000000000000000',
+    rank: 87,
+    user: '0x523e782d1e6a1fbe17d98223385a5f9e309fa6c9',
+    wethLatestShareRatio: 7.4641783e+26
+  },
+  {
+    points: '680188877000000000000000000',
+    rank: 88,
+    user: '0xea7c9a9c514180ce49920dfe3d09d49fa8065390',
+    wethLatestShareRatio: 6.80188877e+26
+  },
+  {
+    points: '638996398000000000000000000',
+    rank: 89,
+    user: '0xc8d31fba671e6c2b7a108fb10543492d1ae8d052',
+    wethLatestShareRatio: 6.38996398e+26
+  },
+  {
+    points: '623956782000000000000000000',
+    rank: 90,
+    user: '0xb33cd1c67db564177ebe9e53db043fd477847d1f',
+    wethLatestShareRatio: 6.23956782e+26
+  },
+  {
+    points: '565747520000000000000000000',
+    rank: 91,
+    user: '0x34b7acba92efd8a025c8accf3c35f53e0b96bd6e',
+    wethLatestShareRatio: 5.6574752e+26
+  },
+  {
+    points: '538448797000000000000000000',
+    rank: 92,
+    user: '0x8beb7de782f4f0b6621ed5e5d67f6c380e0bc814',
+    wethLatestShareRatio: 5.38448797e+26
+  },
+  {
+    points: '477143867000000000000000000',
+    rank: 93,
+    user: '0x46899942ed2afb4e2bcedc7b8da27c9b887839e5',
+    wethLatestShareRatio: 4.77143867e+26
+  },
+  {
+    points: '476670739000000000000000000',
+    rank: 94,
+    user: '0x83026214387d977ed8510c3d39e2c01250652a33',
+    wethLatestShareRatio: 4.76670739e+26
+  },
+  {
+    points: '443580705000000000000000000',
+    rank: 95,
+    user: '0xe4105089d7d3e7ac04eae04557e1af563dec7b3d',
+    wethLatestShareRatio: 4.43580705e+26
+  },
+  {
+    points: '364832049000000000000000000',
+    rank: 96,
+    user: '0x47a52ee5ff509100e1d31ae300ba6715bb0bde90',
+    wethLatestShareRatio: 3.64832049e+26
+  },
+  {
+    points: '331781555000000000000000000',
+    rank: 97,
+    user: '0x30bf11c3a2cad39053156b7ed4e8c19343031ffe',
+    wethLatestShareRatio: 3.31781555e+26
+  },
+  {
+    points: '234050023000000000000000000',
+    rank: 98,
+    user: '0x66a50abd3d6b79f851e0da07671c69aec87bd366',
+    wethLatestShareRatio: 2.34050023e+26
+  },
+  {
+    points: '186876036000000000000000000',
+    rank: 99,
+    user: '0xf82c62388ee16367681543d316b5bed1314dfe92',
+    wethLatestShareRatio: 1.86876036e+26
+  },
+  {
+    points: '126048628000000000000000000',
+    rank: 100,
+    user: '0x0fb857dc28e43e49bad1913cb44df01cb47d5e61',
+    wethLatestShareRatio: 1.26048628e+26
+  }
+]
+Done in 1.64s.
