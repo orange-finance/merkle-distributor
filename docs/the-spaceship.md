@@ -24,5 +24,5 @@ file: `projects/spaceship/prod/merkle-tree.json`
 change the `merkleRoot` value to the one generated in the previous step.
 
 ```bash
-yarn deploy:merkle-distributor --network arb --env prod --token 0x912CE59144191C1204E64559FE8253a0e49E6548 --merkle-root <merkleRoot>
+yarn deploy:merkle-distributor --network arb --env prod --token 0x912CE59144191C1204E64559FE8253a0e49E6548 --merkle-root <merkleRoot> --end-time 1633084800
 ```
