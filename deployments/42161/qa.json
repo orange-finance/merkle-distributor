@@ -1,16 +1,12 @@
 {
   "TestERC20": {
     "address": "0xA412CF7f2a1d5b893dC5Fc8213a9Ae1b8831E813",
-    "constructorArgs": [
-      "Arbitrum",
-      "ARB",
-      "10000000000000000000000"
-    ]
+    "constructorArgs": ["Arbitrum", "ARB", "10000000000000000000000"]
   },
   "MerkleDistributor": {
-    "address": "0x80581d4A1629e8AF67786fDA4306bDFe470a0ED1",
+    "address": "0x1b25269913D25318ac0C30551503cE5dD2b75A05",
     "constructorArgs": [
-      "0x912CE59144191C1204E64559FE8253a0e49E6548",
+      "0xA412CF7f2a1d5b893dC5Fc8213a9Ae1b8831E813",
       "0x34315b76850669ded7f53c67e78d359ad8981f16bfc0f6f5d1ed6cfb73fbc19b"
     ]
   }
