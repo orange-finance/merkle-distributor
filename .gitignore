@@ -4,5 +4,6 @@ wrangler.toml
 artifacts/
 .idea
 cache/
+.yarn
 
 .env

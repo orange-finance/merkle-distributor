@@ -22,9 +22,14 @@ const deployMerkleDistributorTask: ActionType<DeployMerkleDistributorTaskArgs> =
 
   console.log(`MerkleDistributorWithDeadline deployed at ${distributor.address}`)
 
-  saveDeployment(chain, outDir, env, 'MerkleDistributor', {
+  await hre.run('verify:verify', {
     address: distributor.address,
-    constructorArgs: [token, merkleRoot],
+    constructorArguments: [token, merkleRoot, endTime],
+  })
+
+  saveDeployment(chain, outDir, env, 'MerkleDistributorWithDeadline', {
+    address: distributor.address,
+    constructorArgs: [token, merkleRoot, endTime],
   })
 }
 
