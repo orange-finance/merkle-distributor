@@ -21,6 +21,7 @@
     "precompile": "rimraf ./build/",
     "compile": "npx hardhat compile",
     "spaceship:generate-distribution": "ts-node projects/the-spaceship/create-distribution.ts",
+    "ltipp:generate-distribution": "ts-node projects/ltipp/create-distribution.ts",
     "generate-merkle-root": "ts-node scripts/generate-merkle-root.ts",
     "generate-merkle-root:example": "ts-node scripts/generate-merkle-root.ts --input scripts/example.json",
     "deploy:test-erc20": "npx hardhat deploy-test-erc20",
@@ -30,7 +31,8 @@
     "test": "npx hardhat test"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "4.7.0"
+    "@openzeppelin/contracts": "4.7.0",
+    "decimal.js": "^10.4.3"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-verify": "^2.0.4",
